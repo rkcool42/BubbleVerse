@@ -126,11 +126,11 @@ Inside each cell create `Group_Bubble`:
 
 ### Bubble Sizing (Stable conditional ranges)
 Set base width to 110 and add conditions:
-- If `Current cell's Stock's MarketCap >= 2500000000000` ➜ width/height 140
-- If `MarketCap >= 1000000000000 and < 2500000000000` ➜ width/height 120
+- If `Current cell's Stock's MarketCap >= 12000000000000` ➜ width/height 140
+- If `MarketCap >= 8000000000000 and < 12000000000000` ➜ width/height 120
 - Else ➜ width/height 100
 
-(Adjust numbers to your demo units, but keep exactly 3 bands for performance.)
+(These defaults are rebased to the included demo seed range (~5.03e12 to ~1.98e13) so all 3 bands are exercised; keep exactly 3 bands for performance.)
 
 ### Bubble Color Conditionals
 - If `PercentChange > 0`: emerald→teal gradient
