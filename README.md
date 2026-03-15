@@ -1,2 +1,16 @@
 # BubbleVerse
-The app should visualize financial market data (e.g., Indian stocks) using dynamic bubble visualization where each bubble represents an asset. Size, color, and labels must reflect key data points. The MVP must be stable, lightweight, mobile optimized, and ready for Android wrapper deployment. Avoid complex integrations — use demo/static data only.
+
+BubbleVerse is a mobile-first Bubble.io MVP specification for interactive stock bubbles inspired by CryptoBubbles.
+
+## Included artifacts
+
+- **Implementation blueprint:** `docs/BubbleVerse_MVP_Build_Spec.md`
+- **Demo stock seed file:** `data/demo_indian_stocks.csv`
+
+## Version
+
+`0.1 MVP`
+
+## Focus
+
+Visual clarity + smooth UX + performance stability.
